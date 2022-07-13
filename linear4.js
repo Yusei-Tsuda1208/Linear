@@ -2,24 +2,24 @@ var canvas4 = document.getElementById('canvas4');
 var e = canvas4.getContext('2d');
 
 //クリック処理
-var count = 0;
+var count3 = 0;
 function next3(){
-    count++;
-    if(count == 1){
+    count3++;
+    if(count3 == 1){
         e.beginPath();
         e.setLineDash([0, 0]);
         e.strokeStyle = "red" ;
         e.moveTo(60, 305);
         e.lineTo(370, 230);
         e.stroke();
-    }else if(count == 2){
+    }else if(count3 == 2){
         e.beginPath();
         e.strokeStyle = "blue" ;
         e.arc(290,250,3,0,2*Math.PI,false);
         e.fill();
         e.fillText('k1', 295, 265);
         e.stroke();
-    }else if(count == 3){
+    }else if(count3 == 3){
         e.clearRect(60,60,310,260);
         e.beginPath();
         e.strokeStyle = "blue" ;
@@ -54,7 +54,7 @@ function next3(){
         e.moveTo(60, 305);
         e.lineTo(370, 230);
         e.stroke();
-    }else if(count == 4){
+    }else if(count3 == 4){
         e.clearRect(60,60,310,260);
         e.beginPath();
         e.strokeStyle = "blue" ;
@@ -88,7 +88,7 @@ function next3(){
         e.setLineDash([2, 2]);
         e.arc(53,-205, 500, 0.95, 1.55, false);
         e.stroke();
-    }else if(count == 5){
+    }else if(count3 == 5){
         e.clearRect(60,60,310,260);
         
         //接線
@@ -131,7 +131,7 @@ function next3(){
         e.setLineDash([2, 2]);
         e.arc(53,-205, 500, 0.95, 1.55, false);
         e.stroke();
-    }else if(count == 6){
+    }else if(count3 == 6){
         e.clearRect(60,60,310,260);
         
         //接線
@@ -175,7 +175,7 @@ function next3(){
         e.arc(205,260,3,0,2*Math.PI,false);
         e.fill();
         e.stroke();
-    }else if(count == 7){
+    }else if(count3 == 7){
         e.clearRect(60,60,310,260);
 
         e.strokeStyle = "black" ;
@@ -218,7 +218,7 @@ function next3(){
         e.setLineDash([2, 2]);
         e.arc(-1,-195, 500, 0.8, 1.4, false);
         e.stroke();
-    }else if(count == 8){
+    }else if(count3 == 8){
         //接線
         e.beginPath();
         e.setLineDash([0, 0]);
@@ -226,7 +226,7 @@ function next3(){
         e.moveTo(150, 290);
         e.lineTo(270,230);
         e.stroke();
-    }else if(count == 9){
+    }else if(count3 == 9){
         e.clearRect(60,60,310,260);
 
         e.strokeStyle = "black" ;
